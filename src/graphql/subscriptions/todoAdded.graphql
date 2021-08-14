@@ -1,0 +1,10 @@
+subscription TodoAdded {
+	todoAdded {
+		id
+		title
+		description
+		user {
+			username
+		}
+	}
+}

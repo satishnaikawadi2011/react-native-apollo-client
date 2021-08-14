@@ -1,0 +1,11 @@
+query GetTodos {
+	getTodos {
+		id
+		title
+		description
+		user {
+			username
+		}
+		userId
+	}
+}
